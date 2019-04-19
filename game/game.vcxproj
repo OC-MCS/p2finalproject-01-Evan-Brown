@@ -151,6 +151,18 @@
   <ItemGroup>
     <Text Include="Readme.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="email.png" />
+    <Image Include="enemy.png" />
+    <Image Include="putin.png" />
+    <Image Include="sanctions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="alien.h" />
+    <ClInclude Include="groupOfBadOnes.h" />
+    <ClInclude Include="missile.h" />
+    <ClInclude Include="ui.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
